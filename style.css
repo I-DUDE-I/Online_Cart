@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:aqua;
+}
+
+.navbar{
+    background-color: aqua;
+}
+.crossedPrice{
+    text-decoration: line-through;
+    color: red;
+}
+
+.card{
+    position: relative;
+}
+.offer{
+    position: absolute;
+    top: 2%;
+    right: 0;
+    height: 8%;
+    width: 40%;
+    background-color: blue;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%,20% 50%);
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding-top: 2vw;
+}
+
+.foottt{
+    background-color: rgb(108, 255, 255);
+}

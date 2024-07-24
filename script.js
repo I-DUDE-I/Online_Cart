@@ -16,7 +16,7 @@ function display(cartt) {
               <p class="card-text">price: <span class="crossedPrice">$${item.price}</span></p>
               <p class="card-text">discounted price: <span class="newPrice fs-5 text-success">$${((item.discountedTotal)/(item.quantity)).toFixed(2)}</span></p>
               <a href="#" class="btn btn-primary">Buy Now</a>
-              <a href="#" class="btn btn-primary ms-2">Add to cart</a>
+              <a href="#" class="btn btn-secondary ms-2">Add to cart</a>
             </div>
             <div class="offer">
                 ${item.discountPercentage}% OFF

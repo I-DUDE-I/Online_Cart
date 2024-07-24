@@ -17,6 +17,7 @@ body{
 
 .card{
     position: relative;
+    transition: all 0.1s ease-in;
 }
 .offer{
     position: absolute;
@@ -43,4 +44,8 @@ body{
 
 .foottt{
     background-color: rgb(108, 255, 255);
+}
+.card:hover{
+    scale: 1.01;
+    box-shadow: 2px 4px 16px grey;
 }
